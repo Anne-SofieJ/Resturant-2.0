@@ -1,0 +1,229 @@
+/* Projekt: Alices resturant*/
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Outfit', sans-serif; brødtekst */
+
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Outfit;
+    color: black;
+    list-style-type: none;
+  }
+
+ul {
+  padding-inline-start: 0%;
+}
+
+img {
+    z-index: -1;
+    width: 40%;
+    height: auto;
+    }
+/* ------------------------------ Baggrundsbillede - Computer ------------------------------*/
+#billede {
+  width: 100%;
+}
+
+/* ------------------------------ Typografi ------------------------------*/
+h1 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  }
+  
+  h2 {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  h5 {
+    font-family: Outfit;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+  #klokkeslet {
+    font-family: Outfit;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+  #copy {
+    font-family: Outfit;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+  #betal {
+    font-family: Outfit;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+
+/* ------------------------------ Navbar - Computer ------------------------------*/
+header {
+  border-top: 1px solid white;
+}
+
+.logocomputer {
+ position: absolute;
+ width: auto;
+ height: auto;
+ left: 6%;
+ z-index: 11;
+}
+
+
+/* ------------------------------ Menu - Computer ------------------------------*/
+.menu{
+  text-decoration: none;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.menuitem{
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.hover:hover {
+  border-bottom: 2px solid var(--yellow);
+}
+
+
+/* ---------------------------------- Indhold ---------------------------------*/
+.overskrift {
+    text-align: center;
+  }
+
+.overskriftcom {
+  position: absolute;
+  z-index: 1;
+  margin-top: 20%;
+  margin-left: 41%;
+}
+
+.info {
+  text-align: center;
+}
+
+.facts {
+    background-color:rgb(159, 187, 139);
+    text-align: center;
+}
+
+#møde {
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.billeder {
+    z-index: -1;
+    width: 50%;
+    height: auto;
+}
+
+.menuTing {
+    padding: 2%;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+#forretter {
+    text-align: center;
+    display: block;
+}
+
+
+#hovedretter {
+    text-align: center;
+}
+
+#desserter {
+    text-align: center;
+}
+
+.tekst {
+    text-align: center;
+    background-color: rgb(159, 187, 139);
+    padding: 1%;
+}
+
+
+/*--------------- Footer --------------*/
+#navn {
+  padding-top: 1%;
+}
+
+#klokkeslet {
+  padding-bottom: 1%;
+}
+
+#map { 
+  position: absolute; 
+  top: 20%; 
+  bottom: 50%; 
+  width: 99%; 
+}
+
+/*-------- Kurv og bestillingsknap -------*/
+
+main {
+    display: flex;
+    background-color: rgb(236, 238, 237);
+}
+
+#betal {
+    background-color: #eff291;
+    position: fixed;
+    z-index: 30;
+    padding-left: 48%;
+    padding-right: 41%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 60%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+#bestillinger {
+    background-color: rgb(159, 187, 139);
+    margin-left: 73%;
+    margin-top: 4.5%;
+    border: 20px solid rgb(159, 187, 139);
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+}
+
+#ialt {
+    background-color: rgb(159, 187, 139);
+    text-align: center;
+}
+
+#betal:after {
+    font-weight: 600;
+    content: ' \279C';
+}
+
+/* Translate knap */
+.translationButtons {
+  position: relative;
+  z-index: 10;
+  color: black;
+  padding-left: 94%;
+  background-color: rgb(236, 238, 237);
+}
